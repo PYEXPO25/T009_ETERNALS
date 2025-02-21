@@ -1,0 +1,7 @@
+body{
+    background-image: url('backimage.avif'); /* Replace with your image URL */
+    background-size: cover; /* Makes the image cover the entire page */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    
+}
