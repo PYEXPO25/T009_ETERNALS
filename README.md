@@ -1,4 +1,7 @@
+
+![th](https://github.com/user-attachments/assets/bd39c7d2-c62a-45bb-9cae-7f730769e817)
 # HI 👋🏻 WE ARE THE TEAM ETERNALS 🌍
+
 
 
 
