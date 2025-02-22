@@ -1,6 +1,67 @@
 <!DOCTYPE html>
-<html>
-    <button>Start</button>
-    <button>Count</button>
-    <button>Distance</button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore Data Display</title>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #data-container { margin-top: 20px; padding: 10px; border: 1px solid #ddd; display: inline-block; }
+    </style>
+</head>
+<body>
+
+    
+    <div id="data-container">
+        <h3>Live Data:</h3>
+        <ul id="data-list"></ul>
+    </div>
+       
+        <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+  apiKey: "AIzaSyDv5TiCc80JG77P9x9EmHgPj4glM940wTo",
+  authDomain: "esp32-rtdb-a52d0.firebaseapp.com",
+  databaseURL: "https://esp32-rtdb-a52d0-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "esp32-rtdb-a52d0",
+  storageBucket: "esp32-rtdb-a52d0.firebasestorage.app",
+  messagingSenderId: "462459056710",
+  appId: "1:462459056710:web:7323769fc89e7a05335047"
+};
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+
+
+
+        // 🔹 Fetch data from Firestore
+        function fetchData() {
+            db.collection("detections") // Replace with your Firestore collection name
+                .onSnapshot((snapshot) => {
+                    const dataList = document.getElementById("data-list");
+                    dataList.innerHTML = ""; // Clear list before adding new data
+                    snapshot.forEach((doc) => {
+                        const data = doc.data();
+                        const listItem = document.createElement("li");
+                        listItem.textContent = `ID: ${doc.id} | Location: ${data.location} | Time: ${data.timestamp}`;
+                        dataList.appendChild(listItem);
+                    });
+                });
+        }
+
+        // 🔹 Call fetch function
+        fetchData();
+    </script>
+
+</body>
+</html>
+
 </html>

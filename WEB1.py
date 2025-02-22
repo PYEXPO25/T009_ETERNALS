@@ -5,7 +5,7 @@ app = Flask(__name__)
 def home():
     return render_template('web.html') # Make sure index.html is in the 'templates' folder
 
-@app.route('/about')
+@app.route('/features')
 def about():
     return render_template('about.html') # Another page, for example
 
