@@ -84,11 +84,11 @@ Navigate to source bash cd source
 
 # Resource 📣
 
-## Power Point Presentation 🔔
-<a href="https://drive.google.com/file/d/1wse5VsxRZlBHPGnMJs36KEhye3TqURNP/view?usp=drivesdk" target="_blank">
+
+<a href="https://drive.google.com/file/d/1wse5VsxRZlBHPGnMJs36KEhye3TqURNP/view?usp=drivesdk" target="click">Power Point Link
 </a>
-# Demo video 📹
-<a href="https://drive.google.com/file/d/1wTo9quRl5oi_7mRCQpELDGdGNVoBBEo9/view?usp=drivesdk" target="_blank">
+
+<a href="https://drive.google.com/file/d/1wTo9quRl5oi_7mRCQpELDGdGNVoBBEo9/view?usp=drivesdk" target="click">Video link
 </a>
 
 
