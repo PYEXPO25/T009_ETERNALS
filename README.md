@@ -34,8 +34,7 @@ To design an IoT based system for Real-time detection and communication to rescu
 
 # Team photo
 <div align="center">
-<img src="![Uploading IMG_20250220_093107.jpg…]()
-" align="center" style="width: 100%" />
+<img src="![Uploading IMG_20250220_093107.jpg…]()" align="center" style="width: 100%" />
 </div>  
 
 ## Overview
@@ -116,7 +115,7 @@ Navigate to source bash cd source
 </a>
 
 
-<a href="https://youtube.com/@eternalst009?si=pbKgVNv-jN3Z3Ks-"target="click">Youtube Channel link
+<a href ="https://youtube.com/@eternalst009?si=pbKgVNv-jN3Z3Ks-" target="click">Youtube Channel link
 </a>
 
 
