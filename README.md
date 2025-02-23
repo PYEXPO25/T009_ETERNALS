@@ -32,6 +32,11 @@
 Landslides cause significant destruction, often burying people under debris and making rescue operations extremely challenging. Traditional methods are time-consuming and ineffective for deep or unstable terrain.
 To design an IoT based system for Real-time detection and communication to rescue landslide victims!
 
+# Team photo
+<div align="center">
+<img src="![Uploading IMG_20250220_093107.jpg…]()
+" align="center" style="width: 100%" />
+</div>  
 
 ## Overview
 
@@ -45,6 +50,8 @@ Team ID - T009
 
 
 Colleagues👑
+
+    --Dharshini(Team leader_ developer)
     
     --Angelina(Creator-Developer)...
     
@@ -106,6 +113,10 @@ Navigate to source bash cd source
 
 
 <a href="https://drive.google.com/drive/folders/1ZJVoKM-sZgEbz9qtgv6Mh8mfZ9yOb2Wm?usp=sharing" target="click">Power Point amd Demo video drive link
+</a>
+
+
+<a href="https://youtube.com/@eternalst009?si=pbKgVNv-jN3Z3Ks-"target="click">Youtube Channel link
 </a>
 
 
