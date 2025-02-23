@@ -28,8 +28,6 @@ Team ID - T009
 
 
 Colleagues👑
-
-    --Dharshini(TL-Developer)..
     
     --Angelina(Creator-Developer)...
     
@@ -53,10 +51,10 @@ Colleagues👑
  Servo
  #### MICROCONTROLLERS👩🏼‍💻:
 
- ❖Arduino
+ ❖ESP32 (microcontroller)
  ### SOFTWARE👩🏼‍💻:
  ❖Arduino IDE
- ❖AWS
+ ❖Firebase (firestore)
 
 
 ### Getting Started 🎾
@@ -67,7 +65,7 @@ Follow these steps to clone and run the application locally.
 
 Install Python.
 Install Git.
-Clone this repository: bash git clone https://github.com/username/repository-name.git
+Clone this repository: bash git clone https://github.com/PYEXPO25/T009_ETERNALS 
 Installation
 Navigate to the project directory: bash cd repository-name
 
@@ -88,7 +86,7 @@ Navigate to source bash cd source
 # Resource 📣
 
 
-<a href="https://drive.google.com/file/d/1wse5VsxRZlBHPGnMJs36KEhye3TqURNP/view?usp=drivesdk" target="click">Power Point amd Demo video link drive
+<a href="https://drive.google.com/drive/folders/1ZJVoKM-sZgEbz9qtgv6Mh8mfZ9yOb2Wm?usp=sharing" target="click">Power Point amd Demo video link drive
 </a>
 
 
