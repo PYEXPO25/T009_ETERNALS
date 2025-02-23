@@ -86,7 +86,7 @@ Navigate to source bash cd source
 # Resource 📣
 
 
-<a href="https://drive.google.com/drive/folders/1ZJVoKM-sZgEbz9qtgv6Mh8mfZ9yOb2Wm?usp=sharing" target="click">Power Point amd Demo video link drive
+<a href="https://drive.google.com/drive/folders/1ZJVoKM-sZgEbz9qtgv6Mh8mfZ9yOb2Wm?usp=sharing" target="click">Power Point amd Demo video drive link
 </a>
 
 
