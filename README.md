@@ -19,7 +19,7 @@ To design an IoT based system for Real-time detection and communication to rescu
 ## Overview
 
 
-Our project uses seismic sensor(ADXL345 accelerometer) to detect human movement underground. This enables us to check whether the person is alive or not. The Arduino MKR WAN 1310 collects seismic data and transmits it via LoRa to AWS for real-time analysis. Rescue team access the data from AWS cloud and using the location of the device they can rescue victims based on priority(number of person alive).
+Our project uses seismic sensor(ADXL345 accelerometer) and the microwave sensors to detect human movement underground. This enables us to check whether the person is alive or not and the depth of the person burried and the count of the persons. The ESP32  microcontroller can  collects seismic data and transmits it via LoRa to firebase for real-time analysis. Rescue team access the data from Firebase cloud and using the location of the device they can rescue victims based on priority(number of person alive).
 
 
 ## Team Meambers🤩
@@ -88,11 +88,10 @@ Navigate to source bash cd source
 # Resource 📣
 
 
-<a href="https://drive.google.com/file/d/1wse5VsxRZlBHPGnMJs36KEhye3TqURNP/view?usp=drivesdk" target="click">Power Point Link
+<a href="https://drive.google.com/file/d/1wse5VsxRZlBHPGnMJs36KEhye3TqURNP/view?usp=drivesdk" target="click">Power Point amd Demo video link drive
 </a>
 
-<a href="https://drive.google.com/file/d/1wTo9quRl5oi_7mRCQpELDGdGNVoBBEo9/view?usp=drivesdk" target="click">Video link
-</a>
+
 
 
 
